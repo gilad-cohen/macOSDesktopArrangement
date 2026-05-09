@@ -1,0 +1,22 @@
+# Build outputs
+/drag-mouse
+/spaces-probe
+*.o
+*.dSYM/
+
+# Local/private setup data
+/Config/local_setups.tsv
+
+# macOS filesystem metadata
+.DS_Store
+
+# Editor/IDE noise
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp/

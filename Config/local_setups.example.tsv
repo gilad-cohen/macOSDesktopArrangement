@@ -1,0 +1,13 @@
+# Example machine-specific Space layouts.
+#
+# Copy this file to Config/local_setups.tsv and replace the example UUID and
+# app names with your local values. Config/local_setups.tsv is intentionally
+# ignored by git because it can reveal machine IDs and personal app layout.
+#
+# Format:
+# computer_id<TAB>setup_name<TAB>display_group<TAB>ordered_space_button_names_pipe_separated
+EXAMPLE-MACHINE-UUID	default	1	Browser|Chat|Mail|Desktop 1|Editor|Terminal
+EXAMPLE-MACHINE-UUID	default	2	Desktop 2|Calendar|Notes
+EXAMPLE-MACHINE-UUID	default	3	Desktop 3|Music
+EXAMPLE-MACHINE-UUID	work	1	Browser|Mail|Chat|Desktop 1|Editor
+EXAMPLE-MACHINE-UUID	home	1	Browser|Messages|Desktop 1|Editor
